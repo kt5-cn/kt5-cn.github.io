@@ -42,16 +42,16 @@ const Footer = ({ links }) => (
         商务合作
       </a>
       |<Link to="/message"> 在线留言 </Link> <br />
-      A4纸网 - 专注于A4纸 保留所有权© 2017~{new Date().getFullYear()} a4z.cn |
-      特聘法律顾问: 杨律师 |
+      空调网 - 专注于空调 保留所有权© 2017~{new Date().getFullYear()} kt5.cn |
+      特聘法律顾问: 杨律师{/*  |
       <img
-        src="/img/beiantu.png"
+        src="/images/beiantu.png"
         style={{
           verticalAlign: 'middle'
         }}
-        alt="A4纸网备案图标"
+        alt="空调网备案图标"
       />
-      粤ICP备18002963号
+      粤ICP备18002963号 */}
     </div>
   </div>
 )

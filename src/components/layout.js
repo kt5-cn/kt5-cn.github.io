@@ -20,16 +20,10 @@ const Layout = ({ children, location }) => (
     render={data => {
       const links = [
         { title: '首页', isA: false, to: '/', match: '^\\/$' },
-        {
-          title: '纸浆和造纸行业的新闻',
-          isA: true,
-          to: '/news/index.html',
-          match: '/news'
-        },
-        { title: 'A4纸知多少', isA: false, to: '/fun', match: '\\/fun' },
-        { title: '纸张百科', isA: false, to: '/baike', match: '\\/baike' },
-        { title: 'A4纸价格', isA: false, to: '/price', match: '\\/price' },
-        { title: 'A4纸畅言吧', isA: false, to: '/bbs', match: '\\/bbs' }
+        { title: '空调售后电话', isA: false, to: '/hotline', match: '\\/hotline' },
+        { title: '空调常见问题', isA: false, to: '/qna', match: '\\/qna' },
+        { title: '空调价格', isA: false, to: '/price', match: '\\/price' },
+        { title: '空调种类', isA: false, to: '/type', match: '\\/type' },
       ]
       return (
         <>

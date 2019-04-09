@@ -32,9 +32,9 @@ const Header = ({ location, links }) => {
               color: '#ff9c00',
               textDecoration: 'none'
             }}
-            title={'A4纸网首页'}
+            title={'空调网首页'}
           >
-            <img src={'/img/logo.png'} alt="A4纸网LOGO" />
+            <img src={'/images/logo.png'} alt="空调网LOGO" />
           </Link>
         </div>
         <div

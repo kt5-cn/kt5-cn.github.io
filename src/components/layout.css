@@ -678,8 +678,8 @@ html, body , body > div {
     display: block;
 }
 .nav-list li.active{
-    color: #ff9c00;
-    border-bottom: 2px solid #ff9c00;
+    color: #00a4ea;
+    border-bottom: 2px solid #00a4ea;
 }
 
 .nav-list>li a {
@@ -691,7 +691,7 @@ html, body , body > div {
 }
 
 .nav-list>li:hover a, .nav-list>li:hover, .nav-list>.active a {
-    color: #ff9c00;
+    color: #00a4ea;
     font-weight: 700;
 }
 
@@ -703,7 +703,7 @@ html, body , body > div {
   color: #555;
 }
 .footer a:hover {
-  color: red;
+  color: #00a4ea;
   text-decoration: underline;
 }
 
@@ -827,7 +827,7 @@ html, body , body > div {
 .product-list .line-1 {
   display: block;
   padding: 10px 0;
-  color: #ff9c00;
+  color: #00a4ea;
 }
 .product-list .line-2 a {
   color: #999;
