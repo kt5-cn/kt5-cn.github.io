@@ -100,7 +100,7 @@ const Header = ({ location, links }) => {
       <div
         style={{
           background:
-            '#b1dff0 url(/img/banner-2017.jpg) no-repeat center center',
+            '#b1dff0 url(/images/banner-2019.jpg) no-repeat center center',
           height: 94
         }}
       />
